@@ -1,0 +1,75 @@
+
+body{
+    background-color:rgb(204, 204, 230);
+}
+header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+
+.maori {
+    background-image: url(/images/23.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    gap:400px;
+
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.excursii{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.disponibil{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    background-color: rgb(58, 58, 85);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+.card{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
